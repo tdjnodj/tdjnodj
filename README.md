@@ -6,4 +6,4 @@ My native language is chinese.
 
 喜欢轻度折腾。
 
-我的博客: https://tdjnodj.github.io/blog
+我的博客: https://tdjnodj.github.io/
