@@ -8,8 +8,8 @@ git clone https://github.com/MatsuriDayo/nekoray.git --recursive
 
 ## 全部依赖:
 1. C++ 依赖：`protobuf yaml-cpp zxing-cpp` 已用包管理器安装，并符合版本要求。
-2. 已安装 `qtbase` `qtsvg` `qttools` `qtx11extras`
-3. 已安装 Qt `5.12.x` 或 `5.15.x`
+2. 已安装 `qtbase` `qtsvg` `qttools` `qtx11extras`。
+3. 已安装 Qt `5.12.x` 或 `5.15.x`，并设置好有关环境变量。
 
 
 
@@ -37,7 +37,7 @@ git clone https://github.com/MatsuriDayo/nekoray.git --recursive
 
 ### C++ 部分
 
-当您的发行版没有上面几个 C++ 依赖包，或者版本不符合要求时，可以参考 `build_deps_all.sh` 编译脚本自行编译。
+当您的没有上面几个 C++ 依赖包，或者版本不符合要求时，可以参考 `build_deps_all.sh` 编译脚本自行编译。
 
 条件： 已安装 Qt `5.12.x` 或 `5.15.x`
 
