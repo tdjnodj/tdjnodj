@@ -10,7 +10,7 @@ git clone https://github.com/MatsuriDayo/nekoray.git --recursive
 1. C++ 依赖：`protobuf yaml-cpp zxing-cpp` 已用包管理器安装，并符合版本要求。
 2. 已安装 `qtbase` `qtsvg` `qttools` `qtx11extras`。
 3. 已安装 Qt `5.12.x` 或 `5.15.x`，并设置好有关环境变量。
-4. 包管理器`npm`。
+4. 安装`appdmg`(可以来自包管理器`npm`)
 
 
 ## 复杂编译法
