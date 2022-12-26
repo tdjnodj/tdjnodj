@@ -75,7 +75,7 @@ ninja
 sudo npm install -g appdmg
 ```
 
-然后打包
+然后在nekoray目录下打包
 ```shell
 appdmg appdmg.json /path/to/nekoray.dmg
 ```
