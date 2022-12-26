@@ -83,3 +83,11 @@ appdmg appdmg.json /path/to/nekoray.dmg
 ### 使用
 
 右键nekoray，选择"显示包内容"，将core和geo文件放在`Contents/MacOS/`中。
+
+#### geo*
+```shell
+curl -Lso /Applications/nekoray.app/Contents/MacOS/geoip.dat "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+curl -Lso /Applications/nekoray.app/Contents/MacOS/geosite.dat "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat"
+curl -Lso /Applications/nekoray.app/Contents/MacOS/geoip.db "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db"
+curl -Lso /Applications/nekoray.app/Contents/MacOS/geosite.db "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db"
+```
