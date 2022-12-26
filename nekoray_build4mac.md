@@ -79,4 +79,7 @@ sudo npm install -g appdmg
 ```shell
 appdmg appdmg.json /path/to/nekoray.dmg
 ```
-打开dmg文件，右键nekoray，选择"显示包内容"，将core和geo文件放在`Contents/MacOS/`中。
+
+### 使用
+
+右键nekoray，选择"显示包内容"，将core和geo文件放在`Contents/MacOS/`中。
