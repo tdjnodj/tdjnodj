@@ -54,7 +54,7 @@ git clone https://github.com/MatsuriDayo/nekoray.git --recursive
 ```shell
 mkdir build
 cd build
-cmake -GNinja -DCMAKE_BUILD_TYPE=Release -DNKR_PACKAGE_MACOS=1  .. 
+cmake -GNinja -DCMAKE_BUILD_TYPE=Release -DNKR_PACKAGE_MACOS=1 ..
 ninja
 ```
 
@@ -67,3 +67,15 @@ ninja
 3. 进入 `go/cmd/nekobox_core` 文件夹 `go build` 得到 `nekobox_core`。
 
 非官方构建无需编译 `updater` `launcher`
+
+### 打包
+
+安装`appdmg`
+```shell
+sudo npm install -g appdmg
+```
+
+然后打包
+```shell
+appdmg appdmg.json /path/to/nekoray.dmg
+```
