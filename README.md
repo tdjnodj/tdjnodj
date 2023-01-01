@@ -14,4 +14,8 @@ My native language is chinese.
 
 我的博客: https://tdjnodj.github.io/
 
-其他网站: [流量消失器](tdjnodj.github.io/data-boom-master/)
+其他网站: 
+
+- [流量消失器](https://tdjnodj.github.io/data-boom-master/)
+
+- [clash网页控制台](https://tdjnodj.github.io/clash-dashboard)
